@@ -1,0 +1,60 @@
+<1>What is JavaScript? 
+ANS=>JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much ...
+
+<2>What is the use of isNaN function?
+ANS=>The isNaN() function determines whether a value is NaN when converted to a number. Because coercion inside the isNaN() function can be surprising, you may alternatively want to use Number.isNaN() .
+
+<3>What is negative Infinity?
+ANS=>NEGATIVE_INFINITY is a special numeric value that is returned when an arithmetic operation or mathematical function generates a negative value greater than the largest representable number in JavaScript (i.e., more negative than -Number. MAX_VALUE) . JavaScript displays the NEGATIVE_INFINITY value as -Infinity .
+
+<4>Which company developed JavaScript? 
+ANS=>JavaScript was invented by Brendan Eich in 1995. It was developed for Netscape 2, and became the ECMA-262 standard in 1997. After Netscape handed JavaScript over to ECMA, the Mozilla foundation continued to develop JavaScript for the Firefox browser.
+
+<5>What are undeclared and undefined variables?
+ANS=>Undeclared variables are those that have not been declared or defined in the current scope, while undefined variables are those that have been declared but not given a value.
+
+<6>Write the code for adding new elements dynamically?
+ANS=>The createElement() method in JavaScript can be used to create new items dynamically. The setAttribute() method is used to set the attributes of the newly generated element. By clicking a button, a modal box appears and collects the required information dynamically.
+
+<7>What is the difference between ViewState and SessionState?
+ANS=>Session state is saved on the server, ViewState is saved in the page. Session state is usually cleared after a period of inactivity from the user (no request happened containing the session id in the request cookies). The view state is posted on subsequent post back in a hidden field.
+
+<8>What is === operator?
+ANS=>You’ve tagget your question with “C++”, “C” and “Java”, three languages of which neither implements such an operator. Then you tag it with “Mathematics” in which you of course could choose to define it to do anything you’d like.
+In weakly-/un-typed languages however, it usually tells the compiler whether or not you want to do a strict comparison, type-wise, not allowing the compiler to perform any automagic typecasts it otherwise would do before comparison.
+
+<9>How can the style/class of an element be changed?
+ANS=>Another way to alter the style of an element is by changing its class attribute. class is a reserved word in JavaScript, so in order to access the element's class, you use element. className .
+
+<10>How to read and write a file using JavaScript?
+ANS=>1.file=fopen(getScriptPath(),0); The function fread() is used for reading the file content.
+2.str = fread(file,flength(file) ; The function fwrite() is used to write the contents to the file.
+3.file = fopen("c:\MyFile.txt", 3);// opens the file for writing.
+
+<11>What are all the looping structures in JavaScript?
+ANS=>1.for - loops through a block of code a number of times.
+2.for/in - loops through the properties of an object.
+3.for/of - loops through the values of an iterable object.
+4.while - loops through a block of code while a specified condition is true.
+
+<12>How can you convert the string of any base to an integer in JavaScript?
+ANS=>To convert a string to an integer parseInt(), Number(), and Unary operator(+) function is used in javascript. parseInt() function returns Nan( not a number) when the string doesn't contain number. If a string with a number is sent, then only that number will be returned as the output.
+
+<13>What is the function of the delete operator?
+ANS=>The delete operator removes a property from an object. If the property's value is an object and there are no more references to the object, the object held by that property is eventually released automatically.
+
+<14>What are all the types of Pop up boxes available in JavaScript?
+ANS=>JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+
+<15>What is the use of Void (0)?
+ANS=>JavaScript void 0 means returning undefined (void) as a primitive value. You might come across the term “JavaScript:void(0)” while going through HTML documents. It is used to prevent any side effects caused while inserting an expression in a web page.
+
+<16>How can a page be forced to load another page in JavaScript?
+ANS=>In JavaScript, we can use window. location object to force a page to load another page. We can use the location object to set the URL of a new page.
+
+<17>What are the disadvantages of using innerHTML in JavaScript?
+ANS=>1.Event handlers attached to any DOM element are preserved.
+2.Replacement is done everywhere.
+3.It is not possible to append innerHTML.
+4.Breaks the document.
+5.Used for Cross-site Scripting.
